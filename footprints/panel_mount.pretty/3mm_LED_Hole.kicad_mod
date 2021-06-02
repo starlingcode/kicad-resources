@@ -1,0 +1,16 @@
+(footprint "3mm_LED_Hole" (version 20201220) (generator pcbnew) (layer "F.Cu")
+  (tedit 60028ED8)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a9b13945-b98b-4d7d-b8dc-6b527c41deff)
+  )
+  (fp_text value "3mm_LED_Hole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 62e5377d-26a5-41a3-a6c8-cf34d30aaff5)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9287283a-1c63-4ec0-beb1-920c8658d5d1)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 3.3 3.3) (drill 3.1) (layers *.Cu *.Mask) (tstamp 9a9235f0-b586-4587-86f8-8a8ec10e4026))
+)

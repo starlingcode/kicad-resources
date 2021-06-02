@@ -1,0 +1,16 @@
+(footprint "9mm_Tact_Hole" (version 20201220) (generator pcbnew) (layer "F.Cu")
+  (tedit 60028D0D)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5ad52599-3dfc-4fa4-9ff6-8dab6a8a352b)
+  )
+  (fp_text value "9mm_Tact_Hole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ade01c07-b5f2-454f-903c-f2f6ec12fdbf)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 682cbf91-a8be-40d1-881a-ff828ec1062f)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 9.3 9.3) (drill 9) (layers *.Cu *.Mask) (tstamp 55a8a6c2-2fc8-4ca8-8439-8f66c3b3a128))
+)

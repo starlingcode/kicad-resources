@@ -1,0 +1,16 @@
+(footprint "Thonk_Hole" (version 20201220) (generator pcbnew) (layer "F.Cu")
+  (tedit 60028DC7)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f4fb3d37-af88-49b1-b281-12835577ea3d)
+  )
+  (fp_text value "Thonk_Hole" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c820ca54-2997-4d3a-8c7d-76dd42826f1e)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8758038e-2089-426f-8534-9bfe0b96dd1c)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 6.5 6.5) (drill 6.3) (layers *.Cu *.Mask) (tstamp 4ebd7807-0a24-49d1-b82c-5e601026fc75))
+)
