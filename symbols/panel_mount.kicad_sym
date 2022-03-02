@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "panel_mount:9mm_snap_in_pot" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "9mm_snap_in_pot" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "RV" (id 0) (at -4.445 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -22,15 +22,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "9mm_snap_in_pot_0_1"
-      (rectangle (start 1.016 2.54) (end -1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
-      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -39,7 +37,12 @@
           (xy 2.286 -0.508)
           (xy 1.143 0)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (rectangle (start 1.016 2.54) (end -1.016 -2.54)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "9mm_snap_in_pot_1_1"
@@ -57,7 +60,7 @@
       )
     )
   )
-  (symbol "panel_mount:9mm_tall_trimmer" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "9mm_tall_trimmer" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "RV" (id 0) (at -4.445 0 90)
       (effects (font (size 1.27 1.27)))
     )
@@ -80,15 +83,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "9mm_tall_trimmer_0_1"
-      (rectangle (start 1.016 2.54) (end -1.016 -2.54)
-        (stroke (width 0.254)) (fill (type none))
-      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.524 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -97,7 +98,12 @@
           (xy 2.286 -0.508)
           (xy 1.143 0)
         )
-        (stroke (width 0)) (fill (type outline))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
+      (rectangle (start 1.016 2.54) (end -1.016 -2.54)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "9mm_tall_trimmer_1_1"
@@ -115,7 +121,7 @@
       )
     )
   )
-  (symbol "panel_mount:AudioJack2_Normal" (in_bom yes) (on_board yes)
+  (symbol "AudioJack2_Normal" (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -139,17 +145,16 @@
     )
     (symbol "AudioJack2_Normal_0_1"
       (rectangle (start -2.54 0) (end -3.81 -2.54)
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (rectangle (start 2.54 3.81) (end -2.54 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
           (xy 1.778 -0.254)
           (xy 2.032 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -158,7 +163,8 @@
           (xy 1.27 0)
           (xy 2.54 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -167,7 +173,8 @@
           (xy 1.778 -0.254)
           (xy 1.524 -0.762)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -177,7 +184,12 @@
           (xy -1.27 -0.635)
           (xy -1.905 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 2.54 3.81) (end -2.54 -5.08)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "AudioJack2_Normal_1_1"
@@ -195,7 +207,7 @@
       )
     )
   )
-  (symbol "panel_mount:LED_Dual_AKA" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_Dual_AKA" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 5.715 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -218,42 +230,49 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LED_Dual_AKA_0_1"
-      (circle (center -2.54 0) (radius 0.2794) (stroke (width 0)) (fill (type outline)))
-      (circle (center 0 0) (radius 4.572) (stroke (width 0.254)) (fill (type background)))
+      (circle (center -2.54 0) (radius 0.2794)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
       (polyline
         (pts
           (xy -4.572 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 -1.27)
           (xy -1.27 -3.81)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.27 1.27)
           (xy -1.27 3.81)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 -2.54)
           (xy 1.905 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 3.81 2.54)
           (xy 1.905 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -262,7 +281,8 @@
           (xy -1.27 -2.54)
           (xy 1.27 -3.81)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -271,7 +291,8 @@
           (xy -1.27 2.54)
           (xy 1.27 1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -280,7 +301,8 @@
           (xy -2.54 -2.54)
           (xy 2.032 -2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -290,7 +312,8 @@
           (xy 3.556 6.604)
           (xy 3.556 5.842)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -300,7 +323,12 @@
           (xy 4.826 5.588)
           (xy 4.826 4.826)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0) (radius 4.572)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LED_Dual_AKA_1_1"
@@ -318,7 +346,7 @@
       )
     )
   )
-  (symbol "panel_mount:LED_Dual_Bidirectional_3mm" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "LED_Dual_Bidirectional_3mm" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 5.715 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -341,50 +369,65 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LED_Dual_Bidirectional_3mm_0_1"
-      (circle (center -2.032 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
-      (circle (center 2.286 0) (radius 0.254) (stroke (width 0)) (fill (type outline)))
-      (circle (center 0 0) (radius 4.572) (stroke (width 0.254)) (fill (type background)))
+      (circle (center -2.032 0) (radius 0.254)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
+      )
       (polyline
         (pts
           (xy -4.572 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 0)
           (xy -2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.016 3.81)
           (xy -1.016 1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -1.27)
           (xy 1.27 -3.81)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.064 0)
+          (xy 2.286 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
           (xy 4.318 5.842)
           (xy 4.318 5.08)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 5.588 4.572)
           (xy 5.588 3.81)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -392,7 +435,8 @@
           (xy 4.318 5.842)
           (xy 3.556 5.842)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -400,7 +444,8 @@
           (xy 5.588 4.572)
           (xy 4.826 4.572)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -409,7 +454,8 @@
           (xy 1.27 -2.54)
           (xy -1.016 -1.27)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -418,7 +464,8 @@
           (xy -1.016 2.54)
           (xy 1.27 3.81)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -428,14 +475,16 @@
           (xy 2.286 -2.54)
           (xy 2.286 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
-      (polyline
-        (pts
-          (xy 4.064 0)
-          (xy 2.286 0)
-        )
-        (stroke (width 0)) (fill (type outline))
+      (circle (center 0 0) (radius 4.572)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+      (circle (center 2.286 0) (radius 0.254)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
     )
     (symbol "LED_Dual_Bidirectional_3mm_1_1"
@@ -449,7 +498,7 @@
       )
     )
   )
-  (symbol "panel_mount:SW_SPDT" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+  (symbol "SW_SPDT" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
     (property "Reference" "SW" (id 0) (at 0 4.318 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -469,17 +518,27 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_SPDT_0_0"
-      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 2.032 -2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center -2.032 0) (radius 0.508)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 2.032 -2.54) (radius 0.508)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
     )
     (symbol "SW_SPDT_0_1"
-      (circle (center 2.032 2.54) (radius 0.508) (stroke (width 0)) (fill (type none)))
       (polyline
         (pts
           (xy -1.524 0.254)
           (xy 1.651 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 2.032 2.54) (radius 0.508)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SW_SPDT_1_1"
@@ -497,14 +556,14 @@
       )
     )
   )
-  (symbol "panel_mount:TRS_Thonkiconn" (in_bom yes) (on_board yes)
+  (symbol "TRS_Thonkiconn" (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TRS_Thonkiconn" (id 1) (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "panel_mount:THONKICONN" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 0 0 0)
@@ -521,10 +580,8 @@
     )
     (symbol "TRS_Thonkiconn_0_1"
       (rectangle (start -5.08 -5.08) (end -6.35 -2.54)
-        (stroke (width 0.254)) (fill (type outline))
-      )
-      (rectangle (start 2.54 3.81) (end -5.08 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type outline))
       )
       (polyline
         (pts
@@ -533,7 +590,8 @@
           (xy 1.27 -2.54)
           (xy 2.54 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -543,7 +601,8 @@
           (xy -0.635 0)
           (xy 2.54 0)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -553,7 +612,12 @@
           (xy -3.175 -3.175)
           (xy -3.81 -2.54)
         )
-        (stroke (width 0.254)) (fill (type none))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 2.54 3.81) (end -5.08 -5.08)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TRS_Thonkiconn_1_1"
@@ -571,7 +635,7 @@
       )
     )
   )
-  (symbol "panel_mount:Via-Style-Pushbutton" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Via-Style-Pushbutton" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "SW" (id 0) (at 1.27 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -591,21 +655,29 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "Via-Style-Pushbutton_0_1"
-      (circle (center -2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
-      (circle (center 2.032 0) (radius 0.508) (stroke (width 0)) (fill (type none)))
+      (circle (center -2.032 0) (radius 0.508)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (polyline
         (pts
           (xy 0 1.27)
           (xy 0 3.048)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 1.27)
           (xy -2.54 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 2.032 0) (radius 0.508)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive line (at -5.08 0 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))

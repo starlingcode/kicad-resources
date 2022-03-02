@@ -1,0 +1,18 @@
+(footprint "mounting0.6mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 621A7505)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0462563f-5b24-4608-98f1-cf94d3ee6b6d)
+  )
+  (fp_text value "mounting0.6mm" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c376f69d-542c-4831-8fe6-510117d3aaf6)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a2a78647-e546-420c-8669-1d0c87b6e943)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.6) (layers F&B.Cu *.Mask) (tstamp f559e54f-a3f9-4df4-b59c-cfcc907b1fed))
+)
